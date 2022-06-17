@@ -5,16 +5,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o public/css/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
     "cors": "^2.8.5",
     "dotenv": "^8.6.0",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "mongodb": "^3.7.3"
+    "mongodb": "^3.7.3",
+    "sass": "^1.52.3"
   },
   "description": "",
   "devDependencies": {

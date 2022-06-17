@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogIt</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="public/css/starter.css">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
 </head>
 <body>
     <!DOCTYPE html>
@@ -32,14 +33,15 @@
     </ul>
 
     <h2>Add A Material:</h2>
-
     <form action="/addMaterial" method="POST">
         <input type="text" placeholder="Brand" name="brand">
         <input type="text" placeholder="Product" name="product">
-        <input type="submit">
+        <input type="submit" class="btn btn-outline-primary">
     </form>
     
 
-    <script src='js/main.js'></script>
+    <script src='public/js/main.js'></script>
+    <!-- bootstrap js -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
