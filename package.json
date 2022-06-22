@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
     "start": "node server.js",
+    "scss": "node-sass --include-path node_modules --watch scss -o public/css",
     "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o public/css/"
   },
   "author": "",
@@ -18,6 +19,7 @@
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongodb": "^3.7.3",
+    "node-sass": "^7.0.1",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "sass": "^1.52.3"
