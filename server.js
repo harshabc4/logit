@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
-const PORT = 2121
+const PORT = process.env.PORT || 2121;
 require('dotenv').config()
 
 
@@ -69,6 +69,6 @@ app.delete('/deleteMaterial', (request, response) => {
 
 })
 
-app.listen(process.env.PORT || PORT, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log(`Server running on port ${PORT}`)
 })
