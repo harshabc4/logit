@@ -31,6 +31,14 @@ app.get('/',(request, response)=>{
     .catch(error => console.error(error))
 })
 
+app.get('/material',(request, response)=>{
+    db.collection('materials').find().sort({likes: -1}).toArray()
+    .then(data => {
+        response.render('material.ejs', { info: data })
+    })
+    .catch(error => console.error(error))
+})
+
 app.post('/addMaterial', (request, response) => {
     db.collection('materials').insertOne({brand: request.body.brand,
     product: request.body.product, likes: 0})
