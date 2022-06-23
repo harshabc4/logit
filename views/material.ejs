@@ -32,10 +32,10 @@
                         <a href="#" class="nav-link">Materials</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#learn" class="nav-link">Change Location</a>
+                        <a href="#learn" class="nav-link">Account</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#learn" class="nav-link">asdfasdfasdf</a>
+                        <a href="#learn" class="nav-link">Search</a>
                     </li>
                 </ul>
             </div>
@@ -43,11 +43,11 @@
     </nav>
 
     <!-- Showcase -->
-    <section class="bg-dark text-light p-5 text-center">
+    <section class="bg-dark text-light p-5 text-center justify-content-between h-100">
         <div class="container">
-            <div class="d-sm-flex">
-                <div>
-                    <h1>Inventory</h1>
+            <div class="d-sm-flex align-items-center row">
+                <div class="col border p-3 container">
+                    <h1>Inventory:</h1>
                     <ul class="materials">
                     <% for(let i=0; i < info.length; i++) {%>
                         <li class="material">
@@ -60,17 +60,19 @@
                     <% } %>
                     </ul>
                 </div>
-                <h2>Add A Material:</h2>
-                <form action="/addMaterial" method="POST">
-                    <input type="text" placeholder="Brand" name="brand">
-                    <input type="text" placeholder="Product" name="product">
-                    <input type="submit" class="btn btn-outline-primary">
-                </form>
+                <div class="container m-0 p-2 col">
+                    <h2>Add A Material:</h2>
+                    <form action="/addMaterial" method="POST">
+                        <input type="text" placeholder="Brand" name="brand">
+                        <input type="text" placeholder="Product" name="product">
+                        <div class="p-3">
+                            <input type="submit" class="btn btn-outline-primary" value="Add">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-
-
 
     
 

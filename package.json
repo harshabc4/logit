@@ -7,6 +7,7 @@
     "dev": "nodemon server.js",
     "start": "node server.js",
     "scss": "node-sass --include-path node_modules --watch scss -o public/css",
+    "prefixer": "npx postcss public/css/*.css --use autoprefixer -d public/css",
     "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o public/css/"
   },
   "author": "",
