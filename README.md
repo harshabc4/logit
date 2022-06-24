@@ -15,7 +15,6 @@ All the time in my previous line of work I would see huge ineffeciencies.  The m
 **Tech used:** 
     <img src="https://img.shields.io/static/v1?label=|&message=SASS&color=2b625f&style=plastic&logo=sass"/>
     <img src="https://img.shields.io/static/v1?label=|&message=NODE.JS&color=43853D&style=plastic&logo=Node.js"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=Bootstrap&color=blueviolet&style=plastic&logo=Bootstrap"/>
     <img src="https://img.shields.io/static/v1?label=|&message=BOOTSTRAP&color=316c5e&style=plastic&logo=bootstrap"/>
     <img src="https://img.shields.io/static/v1?label=|&message=MONGO-DB&color=cdd148&style=plastic&logo=mongodb"/>
     
