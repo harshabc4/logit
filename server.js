@@ -31,7 +31,7 @@ app.get('/',(request, response)=>{
     .catch(error => console.error(error))
 })
 
-app.get('/materialpage',(request, response)=>{
+app.get('/materials',(request, response)=>{
     db.collection('materials').find().sort({likes: -1}).toArray()
     .then(data => {
         response.render('material.ejs', { info: data })
@@ -44,7 +44,7 @@ app.post('/addMaterial', (request, response) => {
     product: request.body.product, likes: 0})
     .then(result => {
         console.log('Material Added')
-        response.redirect('/materialpage')
+        response.redirect('/materials')
     })
     .catch(error => console.error(error))
 })
