@@ -23,6 +23,7 @@ All the time in my previous line of work I would see huge ineffeciencies.  The m
 
 ## Future Plans:
 
+- Fix mobile layout
 - Add user profiles
 - Build out materials page with more content and styling
 - Improve UI for adding materials
