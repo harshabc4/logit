@@ -29,3 +29,5 @@ All the time in my previous line of work I would see huge ineffeciencies.  The m
 -   add -1 in addition to +1 function
 -   rework icons
 - Add different jobsites and containers (dropdown menu)
+- Build search feature
+- Mouseover for icons
