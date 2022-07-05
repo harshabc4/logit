@@ -1,6 +1,6 @@
 
 
-# LogIt: <a target="_blank" href="" ></a> 
+# LogIt: <a target="https://logit-bh.herokuapp.com/" href="" >Take a look!</a> 
 Full-stack web application for managing jobsite materials. Helps keep construction jobs running smoothly by limiting bottlenecks.
 
 
